@@ -1,0 +1,192 @@
+.container__footer {
+  position: relative;
+}
+
+.footer__video {
+  width: 100%;
+  max-width: 1920px;
+  height: 919px;
+}
+
+.footer__video__background {
+  position: absolute;
+  width: 1915px;
+  height: 919px;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.footer__video__image {      
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/video/SplitShire-7483@1X.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.10196078431372549;
+}
+
+.footer__player__image {
+  position: absolute;
+  top: 50px;
+  left: 945px;
+  width: 865px;
+  height: 832px;
+  background-image: url(../images/video/player6\ kопировать@1X.png);
+  opacity: 0.0392156862745098;
+}
+
+.footer__video__border {
+  position: absolute;
+  width: 1563px;
+  height: 740px;
+  background-image: url(../images/video/Прямоугольник\ 15@1X.png);
+  top: 90px;
+  left: 180px;      
+} 
+
+.footer__video__description {
+  position: absolute;
+  top: 308px;
+  left: 568px;
+  z-index: 2;
+} 
+
+.footer__video__title {
+  width: 506px;
+  font-weight: bold;
+  font-size: 48px;
+  color: #BEA67C;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  letter-spacing: 2px;
+}
+
+.footer__video__paragraph {
+  width: 400px;      
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 42px;
+}    
+
+.footer__video__button:hover {
+  transform: scale(1.05);      
+  border-color: #BEA67C;
+}
+
+.footer__about {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  height: 660px;
+}
+
+.footer__about__background {
+  position: absolute;
+  top: 136px;
+  left: 387px;
+  width: 591px;
+  height: 403px;
+  background-color: #BABABA;           
+}    
+
+.footer__about__image {
+  width: 591px;
+  height: 403px; 
+  box-shadow: 3px 3px 20px #BABABA;            
+} 
+
+.main__futniture__background__title {
+  position: absolute;
+  top: 181px;
+  left: 1192px;
+  width: 725px;
+  overflow-x: hidden;
+}
+
+.main__decor__background__title {
+  position: absolute;
+  top: 865px;
+}
+
+.main__decor__background__title,
+.main__futniture__background__title,
+.footer__about__background__title {     
+  opacity: 0.2;
+  color: #D0D0D0;
+  font-weight: bold;
+  font-size: 172px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+}
+
+.footer__about__background__title {
+  position: absolute;
+  top: 242px;
+  left: -57px; 
+}
+
+.footer__about__description {
+  position: absolute;
+  top: 237px;
+  left: 1072px;
+} 
+
+/* ДОБАВИТЬ ДЕКОР ФУРНИТУР И КРУЖКИ ТАЙТЛ, параграф и бутонс */
+.footer__about__title {
+  margin-bottom: 20px;
+}
+
+.footer__about__paragraph {
+  width: 331px;
+  height: 64px;
+  color: #464646;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.footer { 
+  position: relative;           
+  width: 1918px;
+  height: 72px;      
+}
+
+.footer__title { 
+  position: absolute;        
+  top: 24px;
+  left: 870px;  
+  width: 173px;      
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 14px;      
+} 
+
+.footer__background {
+  width: 1915px;
+  height: 72px;
+  background-color: #000000;
+}
+
+.footer__background__image {      
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/footer/DSC_1007_2000@1X.png);
+  opacity: 0.10196078431372549;      
+  background-repeat: no-repeat;
+  background-position: center;      
+}
+
+.developer {
+  position: absolute;
+  top: 25px;
+  left: 1301px;
+  width: 241px;
+  font-size: 19px;
+  color: #464646;
+}

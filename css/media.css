@@ -1,0 +1,306 @@
+@media (max-width: 1024px) {
+  body {
+    width: 1024px;
+    overflow-x: hidden;
+  }
+
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .container {  
+    width: 100%;
+  }
+
+  .container__header {    
+    position: relative;
+    width: 1024px;
+    height: 700px;
+    background-color: black;
+  }
+
+  .header__background {
+    width: 1024px;
+    display: block;
+  }
+
+  .background__wood__image {
+    width: 1024px;
+  }
+
+  .header__background__wood {
+    width: 1024px;
+    height: 700px;
+    background-image: url(../images/mainScreen/DSC_1007_2000@1X.png);
+    opacity: 0.10196078431372549;
+  }
+
+  .header__title--block { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;   
+    top: 250px;
+    left: 232px;
+  }
+
+  .header__title {
+    margin-bottom: 30px;
+  }
+
+  .nav__header {
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    display: flex;
+    gap: 100px;
+    z-index: 2;
+  }
+
+  .container__main {
+    position: relative;
+    width: 1024px;
+    height: 1880px;
+  }
+
+  .main__furniture__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 312px;
+  }
+
+  .main__woodbase__image {
+    top: 235px;
+    left: 202px;
+  }
+
+  .main__decor__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 670px;
+    left: 312px;     
+  }
+
+  .main__steelbase__image { 
+    position: absolute;
+    top: 865px;
+    left: 202px;
+  }   
+
+  .container__description {
+    top: 1300px;
+    left: 77px;
+  }
+
+  .container__main__paragraph {
+    margin-bottom: 46px;
+  }
+
+  .container__description__videos {
+    gap: 25px;
+  }
+
+  .footer__about__paragraph,
+  .main__furniture__paragraph,
+  .main__decor__paragraph {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 400px;
+  }
+
+  .footer__about__title,
+  .main__decor__title,
+  .main__furniture__title {
+    width: auto;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer__video {
+    height: 800px;
+  }
+
+  .footer__video__background {
+    width: 1022px;
+    height: 800px;
+  }
+
+  .footer__video__border {
+    width: 900px;
+    height: 600px;
+    top: 100px;
+    left: 62px;
+    background-repeat: round;
+  }
+
+  .footer__video__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 227px;
+    left: 259px;
+    z-index: 2;
+  } 
+
+  .footer__video__title {
+    width: 520px;
+    text-align: center;
+  }
+
+  .footer__video__paragraph {
+    width: 520px;
+    text-align: center;
+  }
+
+  .footer__about {
+    width: 1023px;
+    height: 720px;
+  }
+
+  .footer__about__background {
+    top: 230px;
+    left: 216px;
+  }
+
+  .footer__about__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+    left: 312px;
+  }
+
+  .footer__about__paragraph {
+    margin-bottom: 0;
+  }
+
+  .footer__about__background__title {
+    top: 330px;
+    left: 42px;
+  }
+
+  .footer {
+    width: 1024px;
+  }
+
+  .footer__background {
+    width: 100%;
+  }
+
+  .footer__title {
+    left: 425px;
+  }
+
+  .developer {
+    left: 685px;
+  }
+
+  .learn__more__pointer__beige ,
+  .about__pointer__beige,
+  .pointer__beige {
+    left: 270px;
+  }
+
+  .learn__more__pointer__beige {
+    top: 144px;
+  }
+
+  .about__pointer__beige {
+    top: 130px;
+  }
+
+  .pointer__beige {
+    top: 150px;
+  }
+
+  .circle__videos__lines {
+    gap: 275px;
+  }
+
+  .circle__videos__title {
+    gap: 185px;
+  }
+
+  .main__futniture__background__title {
+    width: auto;
+    top: 325px;
+    left: 0;
+  }
+
+  .main__decor__background__title {
+    top: 965px;
+    left: 195px;
+  }
+
+  .main__futniture__title__line {
+    left: -100px;
+  }
+
+  .main__furniture__paragraph__line {
+    top: 26px;
+    left: 344px;
+  }
+
+  .learn__more__furniture__line {
+    top: 145px;
+    left: 80px;
+  }
+
+  .main__decor__paragraph__line {
+    left: 55px;
+  }
+
+  .learn__more__decor__line {
+    top: 148px;
+    left: 80px;
+  }
+
+  .main__decor__paragraph__line {
+    top: 26px;
+  }
+
+  .footer__video__title__line {
+    left: -155px;
+  }
+
+  .footer__video__paragraph__line {
+    top: 26px;
+    left: 520px;
+  }
+
+  .footer__about__title__line {
+    left: -100px;
+  }
+
+  .footer__about__paragraph__line {
+    top: 26px;
+    left: 345px;
+  }
+
+  .learn__more__about__line {
+    top: 131px;
+    left: 80px;
+  }
+
+  .footer__line {
+    left: 460px;
+  }
+
+  .furniture__decor,
+  .mouse__scroll,
+  .header__background__firewood,
+  .footer__player__image,
+  .letter, 
+  .header__number,
+  .product__number__two,
+  .product__number__one {
+    display: none;
+  }
+}

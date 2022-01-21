@@ -1,0 +1,227 @@
+.container__main {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  height: 2082px;
+}
+
+.main__steelbase__image { 
+  position: absolute;
+  top: 767px;
+  left: 359px;         
+  width: 619px;
+  height: 398px;
+  background-color: #000000;
+  box-shadow: -3px 2px 10px #000000;
+}     
+
+.steelbase__table__background {
+  position: absolute;
+  width: 619px;
+  height: 398px;      
+  opacity: 0.34901960784313724;      
+}
+
+.steelbase__table {
+  width: 619px;
+  height: 398px;      
+}
+
+.main__woodbase__image {
+  position: absolute;
+  top: 90px;
+  left: 942px;  
+  width: 619px;
+  height: 398px;
+  background-color: #000000;
+  box-shadow: 3px 2px 10px #000000;
+}
+
+.woodbase__table__background {         
+  width: 619px;
+  height: 398px;
+  opacity: 0.34901960784313724;
+}
+
+.woodbase__table {
+  position: absolute;
+  width: 619px;
+  height: 398px;
+  opacity: 0.9019607843137255;
+}
+
+.main__furniture__description {
+  position: absolute;
+  top: 197px;
+  left: 556px;
+}
+
+.main__decor__description {
+  position: absolute;
+  top: 874px;
+  left: 1098px;
+  text-align: right;      
+}
+
+.container__main__title {      
+  font-weight: bold;
+  font-size: 48px;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.footer__about__title,
+.main__furniture__title,
+.main__decor__title {
+  width: 263px;      
+  color: #010101;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.main__decor__title {
+  text-align: right;
+}    
+
+.main__furniture__paragraph,
+.main__decor__paragraph {      
+  color: #464646;
+  font-size: 15px;      
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.container__main__paragraph {
+  color: #464646;
+  font-size: 15px;      
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 76px;
+}
+
+.main__furniture__paragraph {
+  width: 341px;
+  height: 64px;
+  text-align: left;
+}
+
+.main__decor__paragraph {
+  width: 267px;      
+  text-align: right;
+}
+
+.footer__about__button,
+.main__furniture__button,
+.main__decor__button {
+  width: 116px;
+  height: 10px;
+  color: #000000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold; 
+  letter-spacing: 3px; 
+  transition: 1000ms; 
+  border: none;
+  background-color: transparent; 
+  margin-left: 3px;  
+  text-decoration: none; 
+}
+
+.footer__about__button:hover,
+.main__furniture__button:hover,
+.main__decor__button:hover {      
+  color: #BEA67C;
+}  
+
+.container__description {      
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;         
+  top: 1380px;
+  left: 464px;             
+}
+
+.container__description__videos {
+  display: flex;
+  gap: 79px;
+  margin-bottom: 21px;
+}
+
+.circle__videos {
+  display: flex;      
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 275px;
+  border: 1px solid #E1E1E1;
+  border-radius: 50%;
+}
+
+.circle__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  background-repeat: space;
+  background-position: center;
+}
+
+.circle__design {      
+  background-image: url(../images/videos/GIBRALTAR-BENCH-IN-TABLES-COFFEE-AND-SEATING@1X.png);
+}
+
+.circle__skills {      
+  background-image: url(../images/videos/wood-furniture-design@1X.png);     
+}
+
+.circle__quality {      
+  background-image: url(../images/videos/upcycled-02@1X.png);      
+}
+
+.circle__videos__player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 71px;
+  height: 71px;
+  background-color: #BEA67C;
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: 1000ms;
+}
+
+.circle__videos__player:hover {
+  transform: scale(1.2) rotate(360deg);      
+  background-color: #9b9b9b;      
+}
+
+.triangle {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/videos/play48\ kопировать@1X\ \(2\).png);
+  background-repeat: no-repeat;
+  background-repeat: space;
+  background-position: right;  
+  transform: translate(1px);    
+}
+
+.circle__videos__title {
+  display: flex;
+  justify-content: center;
+  gap: 234px;
+}
+
+.video__title {
+  font-size: 16px;
+  color: #000000;
+}

@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "proximanova_regular";
+  src: url(../fonts/proximanova_regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "proximanova_bold";
+  src: url(../fonts/proximanova_bold.otf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "proximanova_regular", "proximanova_bold";
+  scroll-behavior: smooth;
+}
+
+.container {  
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;  
+}
+
+.container__header {  
+  position: relative; 
+  /* width: 100%;
+  max-width: 1920px;      */
+}
+
+.header__background {
+  width: 1915px;
+  display: flex;
+}
+
+.header__background__wood {
+  flex-shrink: 0;
+  width: 1049px;
+  height: 1001px;
+  background-color: #000000;
+}
+
+.header__background__firewood {
+  flex-shrink: 0;
+  width: 868px;
+  height: 1043px;
+  background-color: #000000;
+}
+
+.background__wood__image {
+  width: 1049px;
+  height: 100%;
+  background-image: url(../images/mainScreen/DSC_1007_2000@1X.png);
+  opacity: 0.10196078431372549;
+}
+
+.background__firewood__image {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/mainScreen/boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile@1X.png);
+  opacity: 0.10196078431372549;
+}
+
+.header__title--block {
+  position: absolute;
+  top: 332px;
+  left: 707px;
+  z-index: 2;
+}
+
+.header__title {      
+  font-size: 95px;
+  color: #BEA67C;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 26px;
+  margin-bottom: 60px;
+}    
+
+.header__title__button,
+.footer__video__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 309px;
+  height: 61px;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;    
+  font-size: 15px;
+  letter-spacing: 3px;      
+  transition: 1000ms;      
+}
+
+.header__title__button:hover {
+  transform: scale(1.05);
+  border-color: #BEA67C;      
+}
+
+.nav__header {
+  position: absolute;
+  top: 30px;
+  left: 710px;
+  display: flex;
+  gap: 100px;
+  z-index: 2;
+}
+
+.nav__header__title {            
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 14px;
+}
+
+.nav__header__list {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  list-style: none;
+  color: #FFFFFF;      
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 3px;      
+}
+
+.nav__list__item {
+  transition: 1000ms;
+  opacity: 0.5019607843137255;
+}
+
+.nav__list__item:hover {
+  transform: scale(1.1); 
+  opacity: 1;              
+}
+
+.header__letter {
+  position: absolute;
+  top: 230px;
+  left: 1738px;
+  width: 177px;
+  overflow-x: hidden;
+}
+
+.product__number__one {
+  position: absolute;
+  top: 445px;
+  left: 388px;
+}
+
+.product__number__two {
+  position: absolute;
+  top: 1150px;
+  left: 1482px;
+}
+
+.product__number__two,
+.product__number__one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 103px;
+  width: 56px;
+  height: auto;
+}
+
+.number__two,
+.number__one {
+  color: black;
+}
+
+.number__doth, 
+.number__two,
+.number__one {
+  height: 24px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.number__doth {
+  color: #BEA67C;
+}
+
+.number__line {
+  width: 6px;
+  height: 54px;
+  background-color: #BEA67C;
+}
+
+.wooder__number__line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__number {
+  position: absolute;
+  top: 470px;
+  left: 200px;
+  display: flex;
+  gap: 83px;
+  align-items: center;
+  width: 350px;
+  height: auto;
+  transform: rotate(90deg);
+}
+
+.line__number {
+  width: 54px;
+  height: 4px;
+  background-color: #BEA67C;
+}
+
+.drop {
+  width: 13px;
+  height: 13px;
+  background-color: #BEA67C;
+  border-radius: 50%;
+}
+
+.wooder__number {
+  font-size: 36px;
+  color: #BEA67C;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.drops {
+  display: flex;
+  gap: 37px;
+}
+
+.drop:nth-child(1n+2) {
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.mouse__scroll {
+  position: absolute;
+  top: 700px;
+  left: 590px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: 250px;
+  transform: rotate(90deg);
+}
+
+.mouse {
+  transform: rotate(-90deg);
+}
+
+.wooder__pointer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transform: rotate(-90deg);
+}
+
+.wooder__pointer__line {
+  width: 3px;
+  height: 75px;
+  background-color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.wooder__pointer__arrow {
+  position: absolute;
+  top: 63px;
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #FFFFFF;
+  border-right: 3px solid #FFFFFF;
+  transform: rotate(135deg);
+  opacity: 0.6;
+}
+
+.scroll {
+  font-size: 20px;
+  color: #FFFFFF;
+  opacity: 0.10196078431372549;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.furniture__decor {
+  position: absolute; 
+  top: 460px;
+  left: 1425px;
+  display: flex;
+  gap: 22px;
+  width: 220px;
+  text-transform: uppercase;
+  color: #BEA67C;
+  opacity: 0.2;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transform: rotate(90deg);
+}
